@@ -1,10 +1,10 @@
 package domain.service;
 
-import domain.exception.SectorWithoutVolunteersException;
-import domain.exception.VolunteerUnavailableException;
-import domain.model.Scale;
-import domain.model.Sector;
-import domain.model.Volunteer;
+import com.riosmind.churchscale.domain.exception.SectorWithoutVolunteersException;
+import com.riosmind.churchscale.domain.exception.VolunteerUnavailableException;
+import com.riosmind.churchscale.domain.model.Scale;
+import com.riosmind.churchscale.domain.model.Sector;
+import com.riosmind.churchscale.domain.model.Volunteer;
 
 import java.util.ArrayList;
 import java.util.HashMap;

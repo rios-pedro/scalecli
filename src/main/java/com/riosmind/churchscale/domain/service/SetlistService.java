@@ -1,9 +1,9 @@
 package domain.service;
 
-import domain.exception.DuplicateMusicException;
-import domain.model.Music;
-import domain.model.Setlist;
-import domain.model.Volunteer;
+import com.riosmind.churchscale.domain.exception.DuplicateMusicException;
+import com.riosmind.churchscale.domain.model.Music;
+import com.riosmind.churchscale.domain.model.Setlist;
+import com.riosmind.churchscale.domain.model.Volunteer;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

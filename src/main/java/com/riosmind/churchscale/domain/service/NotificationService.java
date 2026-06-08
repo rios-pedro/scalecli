@@ -1,8 +1,8 @@
-package domain.service;
+package com.riosmind.churchscale.domain.service;
 
-import domain.model.Scale;
-import domain.model.Sector;
-import domain.model.Volunteer;
+import com.riosmind.churchscale.domain.model.Scale;
+import com.riosmind.churchscale.domain.model.Sector;
+import com.riosmind.churchscale.domain.model.Volunteer;
 
 import java.util.List;
 import java.util.Map;

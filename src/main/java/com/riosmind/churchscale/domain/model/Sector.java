@@ -1,6 +1,5 @@
 package com.riosmind.churchscale.domain.model;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,7 +8,7 @@ public class Sector {
     private String name;
     private List<Volunteer> volunteers;
 
-    public Sector() {
+    public Sector(String louvor) {
         this.volunteers = new ArrayList<>();
     }
 
